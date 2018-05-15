@@ -1219,7 +1219,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000     0x16c8
+.text           0x00000000     0x1794
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1228,16 +1228,16 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x16c8 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x1794 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x0 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x16c8 LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x1794 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
                 0x000000e4                __bss_section_table = .
                 0x000000e4        0x4 LONG 0x10000000 ADDR (.bss)
-                0x000000e8        0x4 LONG 0xc0 SIZEOF (.bss)
+                0x000000e8        0x4 LONG 0xc8 SIZEOF (.bss)
                 0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
                 0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000f4                __bss_section_table_end = .
@@ -1305,292 +1305,292 @@ END GROUP
                 0x00000300       0x54 ./src/DemoLibLucasBoard.o
  .text.SysTick_Config
                 0x00000354       0x44 ./src/DemoLibLucasBoard.o
- .text.main     0x00000398       0x4c ./src/DemoLibLucasBoard.o
+ .text.main     0x00000398       0xd8 ./src/DemoLibLucasBoard.o
                 0x00000398                main
  .text.SysTick_Handler
-                0x000003e4       0x1c ./src/DemoLibLucasBoard.o
-                0x000003e4                SysTick_Handler
+                0x00000470       0x5c ./src/DemoLibLucasBoard.o
+                0x00000470                SysTick_Handler
  .text.SystemInit
-                0x00000400       0x24 ./src/sysinit.o
-                0x00000400                SystemInit
+                0x000004cc       0x24 ./src/sysinit.o
+                0x000004cc                SystemInit
  .text.Chip_IOCON_Init
-                0x00000424       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000004f0       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_Init
-                0x0000043a       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000506       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_SetPinState
-                0x00000450       0x68 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000051c       0x68 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_WritePortBit
-                0x000004b8       0x2c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000584       0x2c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_GetPinState
-                0x000004e4       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000005b0       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_ReadPortBit
-                0x0000051c       0x26 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000005e8       0x26 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_SetPinDIROutput
-                0x00000542       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000060e       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_SetPinDIRInput
-                0x0000057a       0x3a C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000646       0x3a C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_SetPinDIR
-                0x000005b4       0x42 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000680       0x42 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_WriteDirBit
-                0x000005f6       0x2e C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000006c2       0x2e C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_SendByte
-                0x00000624       0x1c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000006f0       0x1c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_ConfigData
-                0x00000640       0x1a C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000070c       0x1a C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_ReadLineStatus
-                0x0000065a       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000726       0x16 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.__sys_write
-                0x00000670       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00000670                __sys_write
+                0x0000073c       0x38 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000073c                __sys_write
  .text.Board_LED_Init
-                0x000006a8       0x18 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000774       0x18 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Board_UART_Init
-                0x000006c0       0x12 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000006c0                Board_UART_Init
- *fill*         0x000006d2        0x2 ff
+                0x0000078c       0x12 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000078c                Board_UART_Init
+ *fill*         0x0000079e        0x2 ff
  .text.Board_Debug_Init
-                0x000006d4       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000006d4                Board_Debug_Init
+                0x000007a0       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000007a0                Board_Debug_Init
  .text.Board_UARTPutChar
-                0x00000704       0x34 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00000704                Board_UARTPutChar
+                0x000007d0       0x34 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000007d0                Board_UARTPutChar
  .text.Board_LED_Set
-                0x00000738       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00000738                Board_LED_Set
+                0x00000804       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000804                Board_LED_Set
  .text.Board_LED_Test
-                0x00000768       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00000768                Board_LED_Test
+                0x00000834       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000834                Board_LED_Test
  .text.Board_LED_Toggle
-                0x00000798       0x42 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00000798                Board_LED_Toggle
- *fill*         0x000007da        0x2 ff
+                0x00000864       0x42 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000864                Board_LED_Toggle
+ *fill*         0x000008a6        0x2 ff
  .text.Board_Init
-                0x000007dc       0x24 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000007dc                Board_Init
+                0x000008a8       0x24 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000008a8                Board_Init
  .text.Chip_SYSCTL_SetFLASHAccess
-                0x00000800       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x000008cc       0x30 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .text.Board_SetupMuxing
-                0x00000830       0x1c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x00000830                Board_SetupMuxing
+                0x000008fc       0x1c C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x000008fc                Board_SetupMuxing
  .text.Board_SetupClocking
-                0x0000084c       0x12 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x0000084c                Board_SetupClocking
+                0x00000918       0x12 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00000918                Board_SetupClocking
  .text.Board_SystemInit
-                0x0000085e       0x10 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x0000085e                Board_SystemInit
- *fill*         0x0000086e        0x2 ff
+                0x0000092a       0x10 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x0000092a                Board_SystemInit
+ *fill*         0x0000093a        0x2 ff
  .text.SystemCoreClockUpdate
-                0x00000870       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x00000870                SystemCoreClockUpdate
+                0x0000093c       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x0000093c                SystemCoreClockUpdate
  .text.Chip_Clock_IsMainPLLEnabled
-                0x00000888       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000954       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x000008ac       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000978       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_FeedPLL
-                0x000008d0       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000099c       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLSource
-                0x00000904       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009d0       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainOscRate
-                0x00000924       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000009f0       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetIntOscRate
-                0x00000938       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a04       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetRTCOscRate
-                0x0000094c       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a18       0x14 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLInClockRate
-                0x00000960        0xe C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- *fill*         0x0000096e        0x2 ff
+                0x00000a2c        0xe C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ *fill*         0x00000a3a        0x2 ff
  .text.Chip_Clock_EnablePLL
-                0x00000970       0x44 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000970                Chip_Clock_EnablePLL
+                0x00000a3c       0x44 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a3c                Chip_Clock_EnablePLL
  .text.Chip_Clock_DisablePLL
-                0x000009b4       0x48 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000009b4                Chip_Clock_DisablePLL
+                0x00000a80       0x48 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000a80                Chip_Clock_DisablePLL
  .text.Chip_Clock_SetupPLL
-                0x000009fc       0x5c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000009fc                Chip_Clock_SetupPLL
+                0x00000ac8       0x5c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000ac8                Chip_Clock_SetupPLL
  .text.Chip_Clock_EnablePeriphClock
-                0x00000a58       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000a58                Chip_Clock_EnablePeriphClock
+                0x00000b24       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b24                Chip_Clock_EnablePeriphClock
  .text.Chip_Clock_GetCPUClockSource
-                0x00000a8c       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000a8c                Chip_Clock_GetCPUClockSource
+                0x00000b58       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b58                Chip_Clock_GetCPUClockSource
  .text.Chip_Clock_SetCPUClockDiv
-                0x00000ab0       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000ab0                Chip_Clock_SetCPUClockDiv
+                0x00000b7c       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b7c                Chip_Clock_SetCPUClockDiv
  .text.Chip_Clock_GetCPUClockDiv
-                0x00000ad0       0x1c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000ad0                Chip_Clock_GetCPUClockDiv
+                0x00000b9c       0x1c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000b9c                Chip_Clock_GetCPUClockDiv
  .text.Chip_Clock_GetPCLKDiv
-                0x00000aec       0x8c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000aec                Chip_Clock_GetPCLKDiv
+                0x00000bb8       0x8c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000bb8                Chip_Clock_GetPCLKDiv
  .text.Chip_Clock_GetSYSCLKRate
-                0x00000b78       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000b78                Chip_Clock_GetSYSCLKRate
+                0x00000c44       0x34 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000c44                Chip_Clock_GetSYSCLKRate
  .text.Chip_Clock_GetMainPLLOutClockRate
-                0x00000bac       0x54 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000bac                Chip_Clock_GetMainPLLOutClockRate
+                0x00000c78       0x54 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000c78                Chip_Clock_GetMainPLLOutClockRate
  .text.Chip_Clock_GetMainClockRate
-                0x00000c00       0x28 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000c00                Chip_Clock_GetMainClockRate
+                0x00000ccc       0x28 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000ccc                Chip_Clock_GetMainClockRate
  .text.Chip_Clock_GetSystemClockRate
-                0x00000c28       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000c28                Chip_Clock_GetSystemClockRate
+                0x00000cf4       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000cf4                Chip_Clock_GetSystemClockRate
  .text.Chip_Clock_GetPeripheralClockRate
-                0x00000c40       0x26 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00000c40                Chip_Clock_GetPeripheralClockRate
+                0x00000d0c       0x26 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000d0c                Chip_Clock_GetPeripheralClockRate
  .text.Chip_IOCON_PinMuxSet
-                0x00000c66       0x36 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00000c66                Chip_IOCON_PinMuxSet
+                0x00000d32       0x36 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000d32                Chip_IOCON_PinMuxSet
  .text.Chip_IOCON_PinMux
-                0x00000c9c       0x92 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00000c9c                Chip_IOCON_PinMux
+                0x00000d68       0x92 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000d68                Chip_IOCON_PinMux
  .text.Chip_IOCON_SetPinMuxing
-                0x00000d2e       0x62 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00000d2e                Chip_IOCON_SetPinMuxing
+                0x00000dfa       0x62 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000dfa                Chip_IOCON_SetPinMuxing
  .text.Chip_Clock_IsMainPLLEnabled
-                0x00000d90       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000e5c       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLLocked
-                0x00000db4       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000e80       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x00000dd8       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000ea4       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_EnableCrystal
-                0x00000dfc       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000ec8       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsCrystalEnabled
-                0x00000e1c       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000ee8       0x24 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_SetMainPLLSource
-                0x00000e40       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000f0c       0x20 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_SetupXtalClocking
-                0x00000e60       0x90 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x00000e60                Chip_SetupXtalClocking
+                0x00000f2c       0x90 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000f2c                Chip_SetupXtalClocking
  .text.Chip_UART_SetupFIFOS
-                0x00000ef0       0x1a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000fbc       0x1a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_ConfigData
-                0x00000f0a       0x1a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000fd6       0x1a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_EnableDivisorAccess
-                0x00000f24       0x1e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000ff0       0x1e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_DisableDivisorAccess
-                0x00000f42       0x1e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x0000100e       0x1e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_SetDivisorLatches
-                0x00000f60       0x26 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
- *fill*         0x00000f86        0x2 ff
+                0x0000102c       0x26 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ *fill*         0x00001052        0x2 ff
  .text.Chip_UART_GetClockIndex
-                0x00000f88       0x50 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00001054       0x50 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_GetClkIndex
-                0x00000fd8       0x50 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x000010a4       0x50 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_Init
-                0x00001028       0x78 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x00001028                Chip_UART_Init
+                0x000010f4       0x78 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x000010f4                Chip_UART_Init
  .text.Chip_UART_TXEnable
-                0x000010a0       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000010a0                Chip_UART_TXEnable
+                0x0000116c       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x0000116c                Chip_UART_TXEnable
  .text.Chip_UART_TXDisable
-                0x000010b8       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000010b8                Chip_UART_TXDisable
+                0x00001184       0x18 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00001184                Chip_UART_TXDisable
  .text.Chip_UART_SetBaud
-                0x000010d0       0x62 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000010d0                Chip_UART_SetBaud
- .text.__main   0x00001132        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
-                0x00001132                __main
- .text._initio  0x00001140       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
-                0x00001140                _initio
- .text.setvbuf  0x000011b8       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
-                0x000011b8                setvbuf
- .text._fdopen  0x000011f8       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
-                0x000011f8                _fdopen
- .text.fclose   0x00001260       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
-                0x00001260                fclose
- .text.fflush   0x000012b8       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
-                0x000012b8                fflush
- .text.fseek    0x000012fc      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
-                0x000012fc                fseek
- .text.ftell    0x000013fc       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
-                0x000013fc                ftell
- .text.remove   0x00001444       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
-                0x00001444                remove
- .text.strlen   0x00001458       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
-                0x00001458                strlen
- .text.memset   0x000014a2        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
-                0x000014a2                memset
+                0x0000119c       0x62 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x0000119c                Chip_UART_SetBaud
+ .text.__main   0x000011fe        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
+                0x000011fe                __main
+ .text._initio  0x0000120c       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x0000120c                _initio
+ .text.setvbuf  0x00001284       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
+                0x00001284                setvbuf
+ .text._fdopen  0x000012c4       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
+                0x000012c4                _fdopen
+ .text.fclose   0x0000132c       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
+                0x0000132c                fclose
+ .text.fflush   0x00001384       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
+                0x00001384                fflush
+ .text.fseek    0x000013c8      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
+                0x000013c8                fseek
+ .text.ftell    0x000014c8       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
+                0x000014c8                ftell
+ .text.remove   0x00001510       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
+                0x00001510                remove
+ .text.strlen   0x00001524       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
+                0x00001524                strlen
+ .text.memset   0x0000156e        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
+                0x0000156e                memset
  .text._do_fflush
-                0x000014a6       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
-                0x000014a6                _do_fflush
- .text._fflush  0x000014e6       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
-                0x000014e6                _fflush
- *fill*         0x0000153a        0x2 ff
+                0x00001572       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
+                0x00001572                _do_fflush
+ .text._fflush  0x000015b2       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
+                0x000015b2                _fflush
+ *fill*         0x00001606        0x2 ff
  .text._Cwritebuf
-                0x0000153c       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
-                0x0000153c                _Cwritebuf
- .text.free     0x000015a8       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
-                0x000015a8                free
+                0x00001608       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
+                0x00001608                _Cwritebuf
+ .text.free     0x00001674       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
+                0x00001674                free
  .text._deferredlazyseek
-                0x000015d8       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
-                0x000015d8                _deferredlazyseek
+                0x000016a4       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
+                0x000016a4                _deferredlazyseek
  .text.__aeabi_memset_lowlevel
-                0x00001618       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
-                0x00001618                __aeabi_lowlevel_memset
+                0x000016e4       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
+                0x000016e4                __aeabi_lowlevel_memset
  .text.__sys_close
-                0x0000164a        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
-                0x0000164a                __sys_close
+                0x00001716        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
+                0x00001716                __sys_close
  .text.__sys_flen
-                0x00001650        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
-                0x00001650                __sys_flen
+                0x0000171c        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
+                0x0000171c                __sys_flen
  .text.__sys_istty
-                0x00001656        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
-                0x00001656                __sys_istty
+                0x00001722        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
+                0x00001722                __sys_istty
  .text.__sys_remove
-                0x0000165c        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
-                0x0000165c                __sys_remove
+                0x00001728        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
+                0x00001728                __sys_remove
  .text.__sys_seek
-                0x00001662        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
-                0x00001662                __sys_seek
+                0x0000172e        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
+                0x0000172e                __sys_seek
  .text.__sys_tmpnam
-                0x00001668        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
-                0x00001668                __sys_tmpnam
+                0x00001734        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
+                0x00001734                __sys_tmpnam
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x0000166e        0x2 ff
+ *fill*         0x0000173a        0x2 ff
  .rodata.OscRateIn
-                0x00001670        0x4 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00001670                OscRateIn
+                0x0000173c        0x4 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000173c                OscRateIn
  .rodata.RTCOscRateIn
-                0x00001674        0x4 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00001674                RTCOscRateIn
+                0x00001740        0x4 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001740                RTCOscRateIn
  .rodata.pinmuxing
-                0x00001678       0x48 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00001744       0x48 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .rodata._initio.str1.1
-                0x000016c0        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x0000178c        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
  .rodata.__num_Ciob_streams
-                0x000016c4        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
-                0x000016c4                __num_Ciob_streams
-                0x000016c8                . = ALIGN (0x4)
+                0x00001790        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
+                0x00001790                __num_Ciob_streams
+                0x00001794                . = ALIGN (0x4)
 
-.glue_7         0x000016c8        0x0
- .glue_7        0x000016c8        0x0 linker stubs
+.glue_7         0x00001794        0x0
+ .glue_7        0x00001794        0x0 linker stubs
 
-.glue_7t        0x000016c8        0x0
- .glue_7t       0x000016c8        0x0 linker stubs
+.glue_7t        0x00001794        0x0
+ .glue_7t       0x00001794        0x0 linker stubs
 
-.vfp11_veneer   0x000016c8        0x0
- .vfp11_veneer  0x000016c8        0x0 linker stubs
+.vfp11_veneer   0x00001794        0x0
+ .vfp11_veneer  0x00001794        0x0 linker stubs
 
-.v4_bx          0x000016c8        0x0
- .v4_bx         0x000016c8        0x0 linker stubs
+.v4_bx          0x00001794        0x0
+ .v4_bx         0x00001794        0x0 linker stubs
 
-.iplt           0x000016c8        0x0
- .iplt          0x000016c8        0x0 ./src/DemoLibLucasBoard.o
+.iplt           0x00001794        0x0
+ .iplt          0x00001794        0x0 ./src/DemoLibLucasBoard.o
 
-.rel.dyn        0x000016c8        0x0
- .rel.iplt      0x000016c8        0x0 ./src/DemoLibLucasBoard.o
+.rel.dyn        0x00001794        0x0
+ .rel.iplt      0x00001794        0x0 ./src/DemoLibLucasBoard.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x000016c8                __exidx_start = .
+                0x00001794                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x000016c8                __exidx_end = .
-                0x000016c8                _etext = .
+                0x00001794                __exidx_end = .
+                0x00001794                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x000016c8
+.data_RAM2      0x2007c000        0x0 load address 0x00001794
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -1606,7 +1606,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000        0x0 load address 0x000016c8
+.data           0x10000000        0x0 load address 0x00001794
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -1615,7 +1615,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _edata = .
 
-.igot.plt       0x10000000        0x0 load address 0x000016c8
+.igot.plt       0x10000000        0x0 load address 0x00001794
  .igot.plt      0x10000000        0x0 ./src/DemoLibLucasBoard.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -1625,20 +1625,24 @@ END GROUP
                 0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
                 [!provide]                PROVIDE (__end_bss_RAM2, .)
 
-.bss            0x10000000       0xc0
+.bss            0x10000000       0xc8
                 0x10000000                _bss = .
  *(.bss*)
  .bss.j         0x10000000        0x4 ./src/DemoLibLucasBoard.o
                 0x10000000                j
- .bss.errno     0x10000004        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
-                0x10000004                errno
- .bss.__Ciob    0x10000008       0xb4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
-                0x10000008                __Ciob
+ .bss.i         0x10000004        0x4 ./src/DemoLibLucasBoard.o
+                0x10000004                i
+ .bss.ciclo     0x10000008        0x4 ./src/DemoLibLucasBoard.o
+                0x10000008                ciclo
+ .bss.errno     0x1000000c        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
+                0x1000000c                errno
+ .bss.__Ciob    0x10000010       0xb4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
+                0x10000010                __Ciob
  *(COMMON)
- COMMON         0x100000bc        0x4 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x100000bc                SystemCoreClock
-                0x100000c0                . = ALIGN (0x4)
-                0x100000c0                _ebss = .
+ COMMON         0x100000c4        0x4 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x100000c4                SystemCoreClock
+                0x100000c8                . = ALIGN (0x4)
+                0x100000c8                _ebss = .
                 [!provide]                PROVIDE (end, .)
 
 .noinit_RAM2    0x2007c000        0x0
@@ -1646,44 +1650,44 @@ END GROUP
  *(.noinit.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.noinit         0x100000c0        0x0
-                0x100000c0                _noinit = .
+.noinit         0x100000c8        0x0
+                0x100000c8                _noinit = .
  *(.noinit*)
-                0x100000c0                . = ALIGN (0x4)
-                0x100000c0                _end_noinit = .
-                0x100000c0                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x100000c8                . = ALIGN (0x4)
+                0x100000c8                _end_noinit = .
+                0x100000c8                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xefff74de                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
-                0x000016c8                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x000016c8                _image_size = (_image_end - _image_start)
+                0x00001794                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00001794                _image_size = (_image_end - _image_start)
 OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x4942
- .debug_info    0x00000000      0x799 ./src/DemoLibLucasBoard.o
- .debug_info    0x00000799      0x25c ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x000009f5       0x3f ./src/crp.o
- .debug_info    0x00000a34      0x239 ./src/sysinit.o
- .debug_info    0x00000c6d      0xfb3 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_info    0x00001c20      0x6c5 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_info    0x000022e5      0x471 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_info    0x00002756      0xba2 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_info    0x000032f8      0x325 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_info    0x0000361d      0x479 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_info    0x00003a96      0xeac C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_info     0x00000000     0x4962
+ .debug_info    0x00000000      0x7b9 ./src/DemoLibLucasBoard.o
+ .debug_info    0x000007b9      0x25c ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000a15       0x3f ./src/crp.o
+ .debug_info    0x00000a54      0x239 ./src/sysinit.o
+ .debug_info    0x00000c8d      0xfb3 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_info    0x00001c40      0x6c5 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_info    0x00002305      0x471 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_info    0x00002776      0xba2 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x00003318      0x325 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x0000363d      0x479 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_info    0x00003ab6      0xeac C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_abbrev   0x00000000     0x12f6
- .debug_abbrev  0x00000000      0x1be ./src/DemoLibLucasBoard.o
- .debug_abbrev  0x000001be      0x114 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x000002d2       0x36 ./src/crp.o
- .debug_abbrev  0x00000308       0xdd ./src/sysinit.o
- .debug_abbrev  0x000003e5      0x376 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_abbrev  0x0000075b      0x17e C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_abbrev  0x000008d9      0x13c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_abbrev  0x00000a15      0x301 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_abbrev  0x00000d16      0x14a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_abbrev  0x00000e60      0x18a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_abbrev  0x00000fea      0x30c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_abbrev   0x00000000     0x1307
+ .debug_abbrev  0x00000000      0x1cf ./src/DemoLibLucasBoard.o
+ .debug_abbrev  0x000001cf      0x114 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000002e3       0x36 ./src/crp.o
+ .debug_abbrev  0x00000319       0xdd ./src/sysinit.o
+ .debug_abbrev  0x000003f6      0x376 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_abbrev  0x0000076c      0x17e C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_abbrev  0x000008ea      0x13c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_abbrev  0x00000a26      0x301 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x00000d27      0x14a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x00000e71      0x18a C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_abbrev  0x00000ffb      0x30c C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
 .debug_aranges  0x00000000      0x590
  .debug_aranges
@@ -1777,41 +1781,41 @@ OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
  .debug_macro   0x000050a5      0x1cd C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .debug_macro   0x00005272      0x1cd C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_line     0x00000000     0x31a7
- .debug_line    0x00000000      0x4f2 ./src/DemoLibLucasBoard.o
- .debug_line    0x000004f2       0xd3 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x000005c5       0x75 ./src/crp.o
- .debug_line    0x0000063a      0x44d ./src/sysinit.o
- .debug_line    0x00000a87      0x7dd C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_line    0x00001264      0x48d C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_line    0x000016f1      0x431 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_line    0x00001b22      0x6ae C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_line    0x000021d0      0x41e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_line    0x000025ee      0x4a8 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_line    0x00002a96      0x711 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_line     0x00000000     0x31d2
+ .debug_line    0x00000000      0x51d ./src/DemoLibLucasBoard.o
+ .debug_line    0x0000051d       0xd3 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x000005f0       0x75 ./src/crp.o
+ .debug_line    0x00000665      0x44d ./src/sysinit.o
+ .debug_line    0x00000ab2      0x7dd C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_line    0x0000128f      0x48d C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_line    0x0000171c      0x431 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_line    0x00001b4d      0x6ae C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x000021fb      0x41e C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x00002619      0x4a8 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_line    0x00002ac1      0x711 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_str      0x00000000    0x13069
- .debug_str     0x00000000    0x1131b ./src/DemoLibLucasBoard.o
-                              0x11426 (size before relaxing)
- .debug_str     0x0001131b      0x1c6 ./src/cr_startup_lpc175x_6x.o
+.debug_str      0x00000000    0x1306f
+ .debug_str     0x00000000    0x11321 ./src/DemoLibLucasBoard.o
+                              0x1142c (size before relaxing)
+ .debug_str     0x00011321      0x1c6 ./src/cr_startup_lpc175x_6x.o
                                0x2765 (size before relaxing)
- .debug_str     0x000114e1       0xe9 ./src/crp.o
+ .debug_str     0x000114e7       0xe9 ./src/crp.o
                                0x2669 (size before relaxing)
- .debug_str     0x000115ca       0x1b ./src/sysinit.o
+ .debug_str     0x000115d0       0x1b ./src/sysinit.o
                               0x10ae8 (size before relaxing)
- .debug_str     0x000115e5      0xa97 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_str     0x000115eb      0xa97 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
                               0x11634 (size before relaxing)
- .debug_str     0x0001207c      0x22d C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_str     0x00012082      0x22d C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
                               0x10ecf (size before relaxing)
- .debug_str     0x000122a9       0xa1 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_str     0x000122af       0xa1 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
                               0x1086e (size before relaxing)
- .debug_str     0x0001234a      0x857 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_str     0x00012350      0x857 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
                               0x1119d (size before relaxing)
- .debug_str     0x00012ba1       0x79 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_str     0x00012ba7       0x79 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
                               0x1061a (size before relaxing)
- .debug_str     0x00012c1a       0xc4 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_str     0x00012c20       0xc4 C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
                               0x10802 (size before relaxing)
- .debug_str     0x00012cde      0x38b C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_str     0x00012ce4      0x38b C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
                               0x11035 (size before relaxing)
 
 .comment        0x00000000       0x7f

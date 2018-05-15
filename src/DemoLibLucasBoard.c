@@ -22,9 +22,11 @@
  * Private types/enumerations/variables
  ****************************************************************************/
 
-#define TICKRATE_HZ1 (1000)	/* 1000 ticks per second */
+#define TICKRATE_HZ1 (1000)	// 1000 ticks per second
 
-volatile int j=0;		//contador para el delay del parpadeo
+volatile int j=0;			// contador para el delay del parpadeo
+volatile int i=0;       	// contador para cambiar de estado
+volatile int ciclo = 0;  	// nro de ciclo
 
 /*****************************************************************************
  * Public functions
@@ -52,16 +54,49 @@ int main(void) {
 #endif
 #endif
 
-    while(1) {
-    	// cada 0.5 segundo...
-    	if (j == 500) {
-    		// prender si led estaba apagado o apagar si led estaba prendido
-    		Board_LED_Toggle(0);
-    		// reset de la variable contador para el delay
-    		j = 0;
+	while(1){
+		switch(ciclo){
+			case 0:
+				// Cada 1 segundo...
+				if(j==1000){
+					// prender si led estaba apagado o apagar si led estaba prendido
+					Board_LED_Toggle(0);
+					// reset de la variable contador para el delay
+					j = 0;
+				}break;
+			case 1:
+				// Cada 500ms...
+				if(j==500){
+					// prender si led estaba apagado o apagar si led estaba prendido
+					Board_LED_Toggle(0);
+					// reset de la variable contador para el delay
+					j = 0;
+				}break;
+			case 2:
+				// Cada 500ms...
+				if(j==250){
+					// prender si led estaba apagado o apagar si led estaba prendido
+					Board_LED_Toggle(0);
+					// reset de la variable contador para el delay
+					j = 0;
+				}break;
+			case 3:
+				// Cada 500ms...
+				if(j==125){
+					// prender si led estaba apagado o apagar si led estaba prendido
+					Board_LED_Toggle(0);
+					// reset de la variable contador para el delay
+					j = 0;
+				}break;
+			default:
+				// reseteo ciclo y los contadores
+				ciclo=0;
+				j=0;
+				i=0;
+				break;
 		}
-    }
-    return 0 ;
+	}
+	return 0 ;
 }
 
 /**
@@ -71,4 +106,15 @@ int main(void) {
 void SysTick_Handler(void) {
 	// incremento la variable contador para el delay
 	j++;
+	// incremento la variable contador para cambiar de estado
+	i++;
+	//Cambio de ciclo cada 3 segundos
+	if(i==3000){
+		//reseteo los contadores
+		i=0;
+		j=0;
+		// incremento el ciclo
+		ciclo++;
+		if(ciclo==4)ciclo=0;
+		}
 }
