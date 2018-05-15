@@ -41,8 +41,7 @@ src/DemoLibLucasBoard.o src/DemoLibLucasBoard.d: \
  C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/board_api.h \
  C:\Users\Luco\repoTest\lpc_chip_175x_6x\inc/lpc_types.h \
  C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/lpc_phy.h \
- C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/board.h \
- C:\Users\Luco\repoTest\lib_lucas_board\inc/LED.h
+ C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/board.h
 
 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/board.h:
 
@@ -127,5 +126,3 @@ C:\Users\Luco\repoTest\lpc_chip_175x_6x\inc/lpc_types.h:
 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/lpc_phy.h:
 
 C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\inc/board.h:
-
-C:\Users\Luco\repoTest\lib_lucas_board\inc/LED.h:
