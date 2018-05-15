@@ -29,7 +29,7 @@ all: DemoLibLucasBoard.axf
 DemoLibLucasBoard.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Datos\Otros\Repo\lib_lucas_board\Debug" -L"C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug" -L"C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug" -Xlinker -Map="DemoLibLucasBoard.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "DemoLibLucasBoard_Debug.ld" -o "DemoLibLucasBoard.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\Luco\repoTest\lib_lucas_board\Debug" -L"C:\Users\Luco\repoTest\lpc_board_nxp_lpcxpresso_1769\Debug" -L"C:\Users\Luco\repoTest\lpc_chip_175x_6x\Debug" -Xlinker -Map="DemoLibLucasBoard.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "DemoLibLucasBoard_Debug.ld" -o "DemoLibLucasBoard.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

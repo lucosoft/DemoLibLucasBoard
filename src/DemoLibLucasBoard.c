@@ -46,6 +46,8 @@ int main(void) {
     LED_Init();
     while(1) {
         i++ ;
+        LED_On();
+        LED_Off();
     }
     return 0 ;
 }
