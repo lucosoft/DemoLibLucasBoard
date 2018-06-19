@@ -20,6 +20,7 @@
 #include "parpadeo.h"
 #include "i2c_eeprom.h"
 #include "display_1602.h"
+#include "teclado_matricial.h"
 
 #include <cr_section_macros.h>
 
@@ -36,6 +37,8 @@
  * @return	Function should not exit.
  */
 int main(void) {
+
+	int teclado = 0;
 
 #if defined (__USE_LPCOPEN)
 	// Read clock settings and update SystemCoreClock variable
@@ -54,11 +57,13 @@ int main(void) {
 	I2C_Eeprom_Leer();
 	LCD_Init();
 	LCD_Print("INICIALIZANDO...");
+	Teclado_Init ();
 
 	while (1) {
 
 		Pulsador_Irq_Sec();
 		Parpadeo_Sec();
+		teclado = Teclado_Presionado();
 	}
 	return 0;
 }

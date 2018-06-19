@@ -8,6 +8,8 @@ C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
                               ./src/DemoLibLucasBoard.o (Parpadeo_Sec)
 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
                               ./src/DemoLibLucasBoard.o (Pulsador_Irq_Init)
+C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                              ./src/DemoLibLucasBoard.o (Teclado_Init)
 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
                               C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o) (Board_LED_Toggle)
 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
@@ -104,6 +106,7 @@ SystemCoreClock     0x4               C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug
 
 Discarded input sections
 
+ .group         0x00000000        0x8 ./src/DemoLibLucasBoard.o
  .group         0x00000000        0x8 ./src/DemoLibLucasBoard.o
  .group         0x00000000        0x8 ./src/DemoLibLucasBoard.o
  .group         0x00000000        0x8 ./src/DemoLibLucasBoard.o
@@ -554,6 +557,95 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .debug_macro   0x00000000       0xca C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .debug_macro   0x00000000       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .group         0x00000000        0x8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text          0x00000000        0x0 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .data          0x00000000        0x0 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .bss           0x00000000        0x0 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Teclado_Tim0DeInit
+                0x00000000        0xc C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Teclado_Presion_Larga
+                0x00000000       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Buzzer_on
+                0x00000000       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Buzzer_off
+                0x00000000       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x8ce C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x10 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x12d C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x5b2 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x22 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x7b C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x10 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x2d C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x2d C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0xbb1 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x217 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x52 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x78 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x82 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x48c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x4c5 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x1b7 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x10 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x21b C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x1b9 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x40 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x22 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x162 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x94 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0xb8 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x4c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x16 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000      0x328 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x49 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x16 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0xca C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x70 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x9a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x20 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x00000000       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .group         0x00000000        0x8 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .group         0x00000000        0x8 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .group         0x00000000        0x8 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
@@ -1722,7 +1814,7 @@ END GROUP
                 0x20084000                __top_RamAHB32 = 0x20084000
                 0x20084000                __top_RAM2 = 0x20084000
 
-.text           0x00000000     0x2afc
+.text           0x00000000     0x32c8
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -1731,16 +1823,16 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x2afc LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x32c8 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
                 0x000000d4        0x4 LONG 0x60 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x2afc LOADADDR (.data_RAM2)
+                0x000000d8        0x4 LONG 0x32c8 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
                 0x000000e4                __bss_section_table = .
                 0x000000e4        0x4 LONG 0x10000060 ADDR (.bss)
-                0x000000e8        0x4 LONG 0xfc SIZEOF (.bss)
+                0x000000e8        0x4 LONG 0x114 SIZEOF (.bss)
                 0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
                 0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000f4                __bss_section_table_end = .
@@ -1768,13 +1860,12 @@ END GROUP
                 0x0000021a                USBActivity_IRQHandler
                 0x0000021a                IntDefaultHandler
                 0x0000021a                PLL0_IRQHandler
-                0x0000021a                CAN_IRQHandler
+                0x0000021a                I2C0_IRQHandler
                 0x0000021a                I2C1_IRQHandler
                 0x0000021a                SSP0_IRQHandler
                 0x0000021a                I2S_IRQHandler
                 0x0000021a                I2C2_IRQHandler
                 0x0000021a                RTC_IRQHandler
-                0x0000021a                TIMER0_IRQHandler
                 0x0000021a                SPI_IRQHandler
                 0x0000021a                RIT_IRQHandler
                 0x0000021a                EINT1_IRQHandler
@@ -1783,13 +1874,13 @@ END GROUP
                 0x0000021a                SSP1_IRQHandler
                 0x0000021a                USB_IRQHandler
                 0x0000021a                BOD_IRQHandler
-                0x0000021a                I2C0_IRQHandler
+                0x0000021a                PLL1_IRQHandler
                 0x0000021a                WDT_IRQHandler
                 0x0000021a                PWM1_IRQHandler
                 0x0000021a                QEI_IRQHandler
                 0x0000021a                EINT0_IRQHandler
                 0x0000021a                ETH_IRQHandler
-                0x0000021a                PLL1_IRQHandler
+                0x0000021a                CAN_IRQHandler
                 0x0000021a                DMA_IRQHandler
                 0x0000021a                TIMER2_IRQHandler
                 0x0000021a                UART3_IRQHandler
@@ -1803,477 +1894,550 @@ END GROUP
                 0x00000300                PROVIDE (__CRP_WORD_END__, .)
                 0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
  *(.text*)
- .text.main     0x00000300       0x34 ./src/DemoLibLucasBoard.o
+ .text.main     0x00000300       0x44 ./src/DemoLibLucasBoard.o
                 0x00000300                main
  .text.SystemInit
-                0x00000334       0x24 ./src/sysinit.o
-                0x00000334                SystemInit
+                0x00000344       0x24 ./src/sysinit.o
+                0x00000344                SystemInit
  .text.NVIC_EnableIRQ
-                0x00000358       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000368       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_GPIO_SetPinState
-                0x00000388       0x68 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000398       0x68 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_GPIO_WritePortBit
-                0x000003f0       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000400       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_GPIO_SetPinDIROutput
-                0x0000041c       0x38 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000042c       0x38 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_GPIO_SetPinDIRInput
-                0x00000454       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000464       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_GPIO_SetPinDIR
-                0x0000048e       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000049e       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_MatchPending
-                0x000004d0       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000004e0       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_ClearMatch
-                0x00000502       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000512       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_Enable
-                0x00000528       0x1e C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000538       0x1e C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_Disable
-                0x00000546       0x1e C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000556       0x1e C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_PrescaleSet
-                0x00000564       0x1a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000574       0x1a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_SetMatch
-                0x0000057e       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000058e       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_MatchEnableInt
-                0x000005a4       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000005b4       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_ResetOnMatchEnable
-                0x000005d6       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000005e6       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.Chip_TIMER_StopOnMatchDisable
-                0x0000060a       0x36 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000061a       0x36 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
  .text.LCD_Init
-                0x00000640       0xbc C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000640                LCD_Init
+                0x00000650       0xbc C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000650                LCD_Init
  .text.LCD_SendNibble
-                0x000006fc       0xcc C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x000006fc                LCD_SendNibble
+                0x0000070c       0xcc C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000070c                LCD_SendNibble
  .text.LCD_SendChar
-                0x000007c8       0x7c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x000007c8                LCD_SendChar
+                0x000007d8       0x7c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000007d8                LCD_SendChar
  .text.LCD_SendInstruction
-                0x00000844       0x40 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000844                LCD_SendInstruction
+                0x00000854       0x40 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000854                LCD_SendInstruction
  .text.LCD_SendByte
-                0x00000884       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000884                LCD_SendByte
+                0x00000894       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000894                LCD_SendByte
  .text.LCD_GoToxy
-                0x000008aa       0x66 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x000008aa                LCD_GoToxy
+                0x000008ba       0x66 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000008ba                LCD_GoToxy
  .text.LCD_Print
-                0x00000910       0x2a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000910                LCD_Print
+                0x00000920       0x2a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000920                LCD_Print
  .text.LCD_Shift
-                0x0000093a       0x36 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x0000093a                LCD_Shift
+                0x0000094a       0x36 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x0000094a                LCD_Shift
  .text.LCD_Clrscr
-                0x00000970       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000970                LCD_Clrscr
+                0x00000980       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000980                LCD_Clrscr
  .text.LCD_usDelay
-                0x00000988       0x48 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000988                LCD_usDelay
+                0x00000998       0x48 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000998                LCD_usDelay
  .text.LCD_Tim1Init
-                0x000009d0       0x5c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x000009d0                LCD_Tim1Init
+                0x000009e0       0x5c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x000009e0                LCD_Tim1Init
  .text.TIMER1_IRQHandler
-                0x00000a2c       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000a2c                TIMER1_IRQHandler
+                0x00000a3c       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000a3c                TIMER1_IRQHandler
  .text.RS_PIN_INIT
-                0x00000a5c       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000a5c                RS_PIN_INIT
+                0x00000a6c       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000a6c                RS_PIN_INIT
  .text.EN_PIN_INIT
-                0x00000a84       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000a84                EN_PIN_INIT
+                0x00000a94       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000a94                EN_PIN_INIT
  .text.D4_PIN_INIT
-                0x00000aac       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000aac                D4_PIN_INIT
+                0x00000abc       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000abc                D4_PIN_INIT
  .text.D5_PIN_INIT
-                0x00000ad4       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000ad4                D5_PIN_INIT
+                0x00000ae4       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000ae4                D5_PIN_INIT
  .text.D6_PIN_INIT
-                0x00000afc       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000afc                D6_PIN_INIT
+                0x00000b0c       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000b0c                D6_PIN_INIT
  .text.D7_PIN_INIT
-                0x00000b24       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
-                0x00000b24                D7_PIN_INIT
+                0x00000b34       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+                0x00000b34                D7_PIN_INIT
  .text.I2C_Eeprom_Init
-                0x00000b4c       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
-                0x00000b4c                I2C_Eeprom_Init
+                0x00000b5c       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+                0x00000b5c                I2C_Eeprom_Init
  .text.I2C_Eeprom_Escribir
-                0x00000b78       0x5c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
-                0x00000b78                I2C_Eeprom_Escribir
+                0x00000b88       0x5c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+                0x00000b88                I2C_Eeprom_Escribir
  .text.I2C_Eeprom_Leer
-                0x00000bd4       0x64 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
-                0x00000bd4                I2C_Eeprom_Leer
+                0x00000be4       0x64 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+                0x00000be4                I2C_Eeprom_Leer
  .text.Parpadeo_Sec
-                0x00000c38       0xb4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
-                0x00000c38                Parpadeo_Sec
+                0x00000c48       0xb4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+                0x00000c48                Parpadeo_Sec
  .text.NVIC_EnableIRQ
-                0x00000cec       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000cfc       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.NVIC_ClearPendingIRQ
-                0x00000d1c       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000d2c       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.Chip_GPIO_SetPinDIRInput
-                0x00000d50       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000d60       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.Chip_GPIO_ReadValue
-                0x00000d8a       0x20 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000d9a       0x20 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.Chip_GPIOINT_SetIntFalling
-                0x00000daa       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000dba       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.Chip_GPIOINT_SetIntRising
-                0x00000dd6       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000de6       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .text.Chip_GPIOINT_ClearIntStatus
-                0x00000e02       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- *fill*         0x00000e2e        0x2 ff
+                0x00000e12       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ *fill*         0x00000e3e        0x2 ff
  .text.EINT3_IRQHandler
-                0x00000e30       0x24 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
-                0x00000e30                EINT3_IRQHandler
+                0x00000e40       0x24 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000e40                EINT3_IRQHandler
  .text.Pulsador_Irq_Init
-                0x00000e54       0x4c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
-                0x00000e54                Pulsador_Irq_Init
+                0x00000e64       0x4c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000e64                Pulsador_Irq_Init
  .text.Pulsador_Irq_Sec
-                0x00000ea0      0x168 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
-                0x00000ea0                Pulsador_Irq_Sec
- .text.Chip_IOCON_Init
-                0x00001008       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .text.Chip_IOCON_EnableOD
-                0x0000101e       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .text.Chip_IOCON_SetI2CPad
-                0x00001056       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .text.Chip_GPIO_Init
-                0x00001072       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000eb0      0x168 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+                0x00000eb0                Pulsador_Irq_Sec
+ .text.NVIC_EnableIRQ
+                0x00001018       0x30 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.NVIC_ClearPendingIRQ
+                0x00001048       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_SetPinState
-                0x00001088       0x68 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000107c       0x68 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_WritePortBit
-                0x000010f0       0x2c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000010e4       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_GetPinState
-                0x0000111c       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .text.Chip_GPIO_ReadPortBit
-                0x00001154       0x26 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001110       0x38 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_SetPinDIROutput
-                0x0000117a       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001148       0x38 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_SetPinDIRInput
-                0x000011b2       0x3a C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001180       0x3a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .text.Chip_GPIO_SetPinDIR
-                0x000011ec       0x42 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000011ba       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_MatchPending
+                0x000011fc       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_ClearMatch
+                0x0000122e       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_Enable
+                0x00001254       0x1e C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_PrescaleSet
+                0x00001272       0x1a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_SetMatch
+                0x0000128c       0x26 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_MatchEnableInt
+                0x000012b2       0x32 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Chip_TIMER_ResetOnMatchEnable
+                0x000012e4       0x34 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila1_on
+                0x00001318       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila1_off
+                0x00001330       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila2_on
+                0x00001348       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila2_off
+                0x00001360       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila3_on
+                0x00001378       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila3_off
+                0x00001390       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila4_on
+                0x000013a8       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Fila4_off
+                0x000013c0       0x18 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Columna1
+                0x000013d8       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Columna2
+                0x00001400       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Columna3
+                0x00001428       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Columna4
+                0x00001450       0x28 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Teclado_Tim0Init
+                0x00001478       0x7c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Teclado_Fila
+                0x000014f4       0x5c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.Teclado_Columna
+                0x00001550       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .text.TIMER0_IRQHandler
+                0x0000157c      0x108 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x0000157c                TIMER0_IRQHandler
+ .text.Teclado_Init
+                0x00001684       0x76 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x00001684                Teclado_Init
+ *fill*         0x000016fa        0x2 ff
+ .text.Teclado_Presionado
+                0x000016fc       0xac C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x000016fc                Teclado_Presionado
+ .text.PIN_INIT
+                0x000017a8       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x000017a8                PIN_INIT
+ .text.Chip_IOCON_Init
+                0x000017d4       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_IOCON_EnableOD
+                0x000017ea       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_IOCON_SetI2CPad
+                0x00001822       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_Init
+                0x0000183e       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinState
+                0x00001854       0x68 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_WritePortBit
+                0x000018bc       0x2c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_GetPinState
+                0x000018e8       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_ReadPortBit
+                0x00001920       0x26 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00001946       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x0000197e       0x3a C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x000019b8       0x42 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_GPIO_WriteDirBit
-                0x0000122e       0x2e C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000019fa       0x2e C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_SendByte
-                0x0000125c       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001a28       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_ConfigData
-                0x00001278       0x1a C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001a44       0x1a C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Chip_UART_ReadLineStatus
-                0x00001292       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001a5e       0x16 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.__sys_write
-                0x000012a8       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000012a8                __sys_write
+                0x00001a74       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001a74                __sys_write
  .text.Board_LED_Init
-                0x000012e0       0x18 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001aac       0x18 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .text.Board_UART_Init
-                0x000012f8       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000012f8                Board_UART_Init
- *fill*         0x0000130a        0x2 ff
+                0x00001ac4       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001ac4                Board_UART_Init
+ *fill*         0x00001ad6        0x2 ff
  .text.Board_Debug_Init
-                0x0000130c       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x0000130c                Board_Debug_Init
+                0x00001ad8       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001ad8                Board_Debug_Init
  .text.Board_UARTPutChar
-                0x0000133c       0x34 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x0000133c                Board_UARTPutChar
+                0x00001b08       0x34 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001b08                Board_UARTPutChar
  .text.Board_LED_Set
-                0x00001370       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00001370                Board_LED_Set
+                0x00001b3c       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001b3c                Board_LED_Set
  .text.Board_LED_Test
-                0x000013a0       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000013a0                Board_LED_Test
+                0x00001b6c       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001b6c                Board_LED_Test
  .text.Board_LED_Toggle
-                0x000013d0       0x42 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x000013d0                Board_LED_Toggle
- *fill*         0x00001412        0x2 ff
+                0x00001b9c       0x42 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001b9c                Board_LED_Toggle
+ *fill*         0x00001bde        0x2 ff
  .text.Board_Init
-                0x00001414       0x24 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00001414                Board_Init
+                0x00001be0       0x24 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001be0                Board_Init
  .text.Board_I2C_Init
-                0x00001438       0xbc C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00001438                Board_I2C_Init
+                0x00001c04       0xbc C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00001c04                Board_I2C_Init
  .text.Chip_SYSCTL_SetFLASHAccess
-                0x000014f4       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00001cc0       0x30 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .text.Board_SetupMuxing
-                0x00001524       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x00001524                Board_SetupMuxing
+                0x00001cf0       0x1c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00001cf0                Board_SetupMuxing
  .text.Board_SetupClocking
-                0x00001540       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x00001540                Board_SetupClocking
+                0x00001d0c       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00001d0c                Board_SetupClocking
  .text.Board_SystemInit
-                0x00001552       0x10 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
-                0x00001552                Board_SystemInit
- *fill*         0x00001562        0x2 ff
+                0x00001d1e       0x10 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00001d1e                Board_SystemInit
+ *fill*         0x00001d2e        0x2 ff
  .text.SystemCoreClockUpdate
-                0x00001564       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x00001564                SystemCoreClockUpdate
+                0x00001d30       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00001d30                SystemCoreClockUpdate
  .text.Chip_Clock_IsMainPLLEnabled
-                0x0000157c       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001d48       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x000015a0       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001d6c       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_FeedPLL
-                0x000015c4       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001d90       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLSource
-                0x000015f8       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001dc4       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainOscRate
-                0x00001618       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001de4       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetIntOscRate
-                0x0000162c       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001df8       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetRTCOscRate
-                0x00001640       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001e0c       0x14 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .text.Chip_Clock_GetMainPLLInClockRate
-                0x00001654        0xe C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- *fill*         0x00001662        0x2 ff
+                0x00001e20        0xe C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ *fill*         0x00001e2e        0x2 ff
  .text.Chip_Clock_EnablePLL
-                0x00001664       0x44 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00001664                Chip_Clock_EnablePLL
+                0x00001e30       0x44 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001e30                Chip_Clock_EnablePLL
  .text.Chip_Clock_DisablePLL
-                0x000016a8       0x48 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000016a8                Chip_Clock_DisablePLL
+                0x00001e74       0x48 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001e74                Chip_Clock_DisablePLL
  .text.Chip_Clock_SetupPLL
-                0x000016f0       0x5c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000016f0                Chip_Clock_SetupPLL
+                0x00001ebc       0x5c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001ebc                Chip_Clock_SetupPLL
  .text.Chip_Clock_EnablePeriphClock
-                0x0000174c       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x0000174c                Chip_Clock_EnablePeriphClock
+                0x00001f18       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001f18                Chip_Clock_EnablePeriphClock
  .text.Chip_Clock_GetCPUClockSource
-                0x00001780       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00001780                Chip_Clock_GetCPUClockSource
+                0x00001f4c       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001f4c                Chip_Clock_GetCPUClockSource
  .text.Chip_Clock_SetCPUClockDiv
-                0x000017a4       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000017a4                Chip_Clock_SetCPUClockDiv
+                0x00001f70       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001f70                Chip_Clock_SetCPUClockDiv
  .text.Chip_Clock_GetCPUClockDiv
-                0x000017c4       0x1c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000017c4                Chip_Clock_GetCPUClockDiv
+                0x00001f90       0x1c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001f90                Chip_Clock_GetCPUClockDiv
  .text.Chip_Clock_GetPCLKDiv
-                0x000017e0       0x8c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000017e0                Chip_Clock_GetPCLKDiv
+                0x00001fac       0x8c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00001fac                Chip_Clock_GetPCLKDiv
  .text.Chip_Clock_GetSYSCLKRate
-                0x0000186c       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x0000186c                Chip_Clock_GetSYSCLKRate
+                0x00002038       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002038                Chip_Clock_GetSYSCLKRate
  .text.Chip_Clock_GetMainPLLOutClockRate
-                0x000018a0       0x54 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000018a0                Chip_Clock_GetMainPLLOutClockRate
+                0x0000206c       0x54 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x0000206c                Chip_Clock_GetMainPLLOutClockRate
  .text.Chip_Clock_GetMainClockRate
-                0x000018f4       0x28 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x000018f4                Chip_Clock_GetMainClockRate
+                0x000020c0       0x28 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000020c0                Chip_Clock_GetMainClockRate
  .text.Chip_Clock_GetSystemClockRate
-                0x0000191c       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x0000191c                Chip_Clock_GetSystemClockRate
+                0x000020e8       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000020e8                Chip_Clock_GetSystemClockRate
  .text.Chip_Clock_GetPeripheralClockRate
-                0x00001934       0x26 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
-                0x00001934                Chip_Clock_GetPeripheralClockRate
- *fill*         0x0000195a        0x2 ff
+                0x00002100       0x26 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00002100                Chip_Clock_GetPeripheralClockRate
+ *fill*         0x00002126        0x2 ff
  .text.enableClk
-                0x0000195c       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00002128       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.getClkRate
-                0x0000198c       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00002158       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.startMasterXfer
-                0x000019b0       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x0000217c       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.startSlaverXfer
-                0x000019ce       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x0000219a       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.isI2CBusFree
-                0x000019ec       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000021b8       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.getCurState
-                0x00001a10       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000021dc       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.isMasterState
-                0x00001a2a       0x22 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000021f6       0x22 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .text.handleMasterXferState
-                0x00001a4c      0x284 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001a4c                handleMasterXferState
+                0x00002218      0x284 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00002218                handleMasterXferState
  .text.Chip_I2C_EventHandler
-                0x00001cd0       0x4c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001cd0                Chip_I2C_EventHandler
+                0x0000249c       0x4c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x0000249c                Chip_I2C_EventHandler
  .text.Chip_I2C_EventHandlerPolling
-                0x00001d1c       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001d1c                Chip_I2C_EventHandlerPolling
+                0x000024e8       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000024e8                Chip_I2C_EventHandlerPolling
  .text.Chip_I2C_Init
-                0x00001d7c       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001d7c                Chip_I2C_Init
+                0x00002548       0x34 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00002548                Chip_I2C_Init
  .text.Chip_I2C_SetClockRate
-                0x00001db0       0x68 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001db0                Chip_I2C_SetClockRate
+                0x0000257c       0x68 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x0000257c                Chip_I2C_SetClockRate
  .text.Chip_I2C_SetMasterEventHandler
-                0x00001e18       0x48 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001e18                Chip_I2C_SetMasterEventHandler
+                0x000025e4       0x48 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000025e4                Chip_I2C_SetMasterEventHandler
  .text.Chip_I2C_MasterTransfer
-                0x00001e60       0x9c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001e60                Chip_I2C_MasterTransfer
+                0x0000262c       0x9c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x0000262c                Chip_I2C_MasterTransfer
  .text.Chip_I2C_IsMasterActive
-                0x00001efc       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001efc                Chip_I2C_IsMasterActive
+                0x000026c8       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000026c8                Chip_I2C_IsMasterActive
  .text.Chip_I2C_MasterStateHandler
-                0x00001f2c       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001f2c                Chip_I2C_MasterStateHandler
+                0x000026f8       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000026f8                Chip_I2C_MasterStateHandler
  .text.Chip_I2C_IsStateChanged
-                0x00001f8c       0x38 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
-                0x00001f8c                Chip_I2C_IsStateChanged
+                0x00002758       0x38 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00002758                Chip_I2C_IsStateChanged
  .text.Chip_IOCON_PinMuxSet
-                0x00001fc4       0x36 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00001fc4                Chip_IOCON_PinMuxSet
+                0x00002790       0x36 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00002790                Chip_IOCON_PinMuxSet
  .text.Chip_IOCON_PinMux
-                0x00001ffa       0x92 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x00001ffa                Chip_IOCON_PinMux
+                0x000027c6       0x92 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x000027c6                Chip_IOCON_PinMux
  .text.Chip_IOCON_SetPinMuxing
-                0x0000208c       0x62 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
-                0x0000208c                Chip_IOCON_SetPinMuxing
- *fill*         0x000020ee        0x2 ff
+                0x00002858       0x62 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00002858                Chip_IOCON_SetPinMuxing
+ *fill*         0x000028ba        0x2 ff
  .text.Chip_Clock_IsMainPLLEnabled
-                0x000020f0       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000028bc       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLLocked
-                0x00002114       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000028e0       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsMainPLLConnected
-                0x00002138       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002904       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_EnableCrystal
-                0x0000215c       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002928       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_IsCrystalEnabled
-                0x0000217c       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00002948       0x24 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_Clock_SetMainPLLSource
-                0x000021a0       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000296c       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .text.Chip_SetupXtalClocking
-                0x000021c0       0x90 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
-                0x000021c0                Chip_SetupXtalClocking
+                0x0000298c       0x90 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x0000298c                Chip_SetupXtalClocking
  .text.Chip_Timer_GetClockIndex
-                0x00002250       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00002a1c       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .text.Chip_TIMER_Init
-                0x000022a0       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
-                0x000022a0                Chip_TIMER_Init
+                0x00002a6c       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00002a6c                Chip_TIMER_Init
  .text.Chip_TIMER_Reset
-                0x000022be       0x3a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
-                0x000022be                Chip_TIMER_Reset
+                0x00002a8a       0x3a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00002a8a                Chip_TIMER_Reset
  .text.Chip_UART_SetupFIFOS
-                0x000022f8       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002ac4       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_ConfigData
-                0x00002312       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002ade       0x1a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_EnableDivisorAccess
-                0x0000232c       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002af8       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_DisableDivisorAccess
-                0x0000234a       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002b16       0x1e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_SetDivisorLatches
-                0x00002368       0x26 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
- *fill*         0x0000238e        0x2 ff
+                0x00002b34       0x26 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ *fill*         0x00002b5a        0x2 ff
  .text.Chip_UART_GetClockIndex
-                0x00002390       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002b5c       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_GetClkIndex
-                0x000023e0       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002bac       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .text.Chip_UART_Init
-                0x00002430       0x78 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x00002430                Chip_UART_Init
+                0x00002bfc       0x78 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002bfc                Chip_UART_Init
  .text.Chip_UART_TXEnable
-                0x000024a8       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000024a8                Chip_UART_TXEnable
+                0x00002c74       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002c74                Chip_UART_TXEnable
  .text.Chip_UART_TXDisable
-                0x000024c0       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000024c0                Chip_UART_TXDisable
+                0x00002c8c       0x18 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002c8c                Chip_UART_TXDisable
  .text.Chip_UART_SetBaud
-                0x000024d8       0x62 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
-                0x000024d8                Chip_UART_SetBaud
- .text.__main   0x0000253a        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
-                0x0000253a                __main
- .text._initio  0x00002548       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
-                0x00002548                _initio
- .text.setvbuf  0x000025c0       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
-                0x000025c0                setvbuf
- .text._fdopen  0x00002600       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
-                0x00002600                _fdopen
- .text.fclose   0x00002668       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
-                0x00002668                fclose
- .text.fflush   0x000026c0       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
-                0x000026c0                fflush
- .text.fseek    0x00002704      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
-                0x00002704                fseek
- .text.ftell    0x00002804       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
-                0x00002804                ftell
- .text.remove   0x0000284c       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
-                0x0000284c                remove
- .text.strlen   0x00002860       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
-                0x00002860                strlen
- .text.memset   0x000028aa        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
-                0x000028aa                memset
+                0x00002ca4       0x62 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00002ca4                Chip_UART_SetBaud
+ .text.__main   0x00002d06        0xe c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
+                0x00002d06                __main
+ .text._initio  0x00002d14       0x78 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x00002d14                _initio
+ .text.setvbuf  0x00002d8c       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
+                0x00002d8c                setvbuf
+ .text._fdopen  0x00002dcc       0x68 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
+                0x00002dcc                _fdopen
+ .text.fclose   0x00002e34       0x58 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
+                0x00002e34                fclose
+ .text.fflush   0x00002e8c       0x44 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
+                0x00002e8c                fflush
+ .text.fseek    0x00002ed0      0x100 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
+                0x00002ed0                fseek
+ .text.ftell    0x00002fd0       0x48 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
+                0x00002fd0                ftell
+ .text.remove   0x00003018       0x14 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
+                0x00003018                remove
+ .text.strlen   0x0000302c       0x4a c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
+                0x0000302c                strlen
+ .text.memset   0x00003076        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
+                0x00003076                memset
  .text._do_fflush
-                0x000028ae       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
-                0x000028ae                _do_fflush
- .text._fflush  0x000028ee       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
-                0x000028ee                _fflush
- *fill*         0x00002942        0x2 ff
+                0x0000307a       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
+                0x0000307a                _do_fflush
+ .text._fflush  0x000030ba       0x54 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
+                0x000030ba                _fflush
+ *fill*         0x0000310e        0x2 ff
  .text._Cwritebuf
-                0x00002944       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
-                0x00002944                _Cwritebuf
- .text.free     0x000029b0       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
-                0x000029b0                free
+                0x00003110       0x6c c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
+                0x00003110                _Cwritebuf
+ .text.free     0x0000317c       0x30 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
+                0x0000317c                free
  .text._deferredlazyseek
-                0x000029e0       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
-                0x000029e0                _deferredlazyseek
+                0x000031ac       0x40 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
+                0x000031ac                _deferredlazyseek
  .text.__aeabi_memset_lowlevel
-                0x00002a20       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
-                0x00002a20                __aeabi_lowlevel_memset
+                0x000031ec       0x32 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
+                0x000031ec                __aeabi_lowlevel_memset
  .text.__sys_close
-                0x00002a52        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
-                0x00002a52                __sys_close
+                0x0000321e        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
+                0x0000321e                __sys_close
  .text.__sys_flen
-                0x00002a58        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
-                0x00002a58                __sys_flen
+                0x00003224        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
+                0x00003224                __sys_flen
  .text.__sys_istty
-                0x00002a5e        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
-                0x00002a5e                __sys_istty
+                0x0000322a        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
+                0x0000322a                __sys_istty
  .text.__sys_remove
-                0x00002a64        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
-                0x00002a64                __sys_remove
+                0x00003230        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
+                0x00003230                __sys_remove
  .text.__sys_seek
-                0x00002a6a        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
-                0x00002a6a                __sys_seek
+                0x00003236        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
+                0x00003236                __sys_seek
  .text.__sys_tmpnam
-                0x00002a70        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
-                0x00002a70                __sys_tmpnam
+                0x0000323c        0x6 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
+                0x0000323c                __sys_tmpnam
  *(.rodata .rodata.* .constdata .constdata.*)
- *fill*         0x00002a76        0x2 ff
- .rodata        0x00002a78       0x11 ./src/DemoLibLucasBoard.o
- *fill*         0x00002a89        0x3 ff
- .rodata        0x00002a8c       0x11 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- *fill*         0x00002a9d        0x3 ff
+ *fill*         0x00003242        0x2 ff
+ .rodata        0x00003244       0x11 ./src/DemoLibLucasBoard.o
+ *fill*         0x00003255        0x3 ff
+ .rodata        0x00003258       0x11 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ *fill*         0x00003269        0x3 ff
  .rodata.OscRateIn
-                0x00002aa0        0x4 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00002aa0                OscRateIn
+                0x0000326c        0x4 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x0000326c                OscRateIn
  .rodata.RTCOscRateIn
-                0x00002aa4        0x4 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
-                0x00002aa4                RTCOscRateIn
+                0x00003270        0x4 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00003270                RTCOscRateIn
  .rodata.pinmuxing
-                0x00002aa8       0x48 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00003274       0x48 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .rodata.I2C_PeriphClk
-                0x00002af0        0x3 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000032bc        0x3 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .rodata._initio.str1.1
-                0x00002af3        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
- *fill*         0x00002af7        0x1 ff
+                0x000032bf        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+ *fill*         0x000032c3        0x1 ff
  .rodata.__num_Ciob_streams
-                0x00002af8        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
-                0x00002af8                __num_Ciob_streams
-                0x00002afc                . = ALIGN (0x4)
+                0x000032c4        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
+                0x000032c4                __num_Ciob_streams
+                0x000032c8                . = ALIGN (0x4)
 
-.glue_7         0x00002afc        0x0
- .glue_7        0x00002afc        0x0 linker stubs
+.glue_7         0x000032c8        0x0
+ .glue_7        0x000032c8        0x0 linker stubs
 
-.glue_7t        0x00002afc        0x0
- .glue_7t       0x00002afc        0x0 linker stubs
+.glue_7t        0x000032c8        0x0
+ .glue_7t       0x000032c8        0x0 linker stubs
 
-.vfp11_veneer   0x00002afc        0x0
- .vfp11_veneer  0x00002afc        0x0 linker stubs
+.vfp11_veneer   0x000032c8        0x0
+ .vfp11_veneer  0x000032c8        0x0 linker stubs
 
-.v4_bx          0x00002afc        0x0
- .v4_bx         0x00002afc        0x0 linker stubs
+.v4_bx          0x000032c8        0x0
+ .v4_bx         0x000032c8        0x0 linker stubs
 
-.iplt           0x00002afc        0x0
- .iplt          0x00002afc        0x0 ./src/DemoLibLucasBoard.o
+.iplt           0x000032c8        0x0
+ .iplt          0x000032c8        0x0 ./src/DemoLibLucasBoard.o
 
-.rel.dyn        0x00002afc        0x0
- .rel.iplt      0x00002afc        0x0 ./src/DemoLibLucasBoard.o
+.rel.dyn        0x000032c8        0x0
+ .rel.iplt      0x000032c8        0x0 ./src/DemoLibLucasBoard.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00002afc                __exidx_start = .
+                0x000032c8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00002afc                __exidx_end = .
-                0x00002afc                _etext = .
+                0x000032c8                __exidx_end = .
+                0x000032c8                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x00002afc
+.data_RAM2      0x2007c000        0x0 load address 0x000032c8
  FILL mask 0xff
                 [!provide]                PROVIDE (__start_data_RAM2, .)
  *(.ramfunc.$RAM2)
@@ -2289,7 +2453,7 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x60 load address 0x00002afc
+.data           0x10000000       0x60 load address 0x000032c8
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
@@ -2305,7 +2469,7 @@ END GROUP
                 0x10000060                . = ALIGN (0x4)
                 0x10000060                _edata = .
 
-.igot.plt       0x10000060        0x0 load address 0x00002b5c
+.igot.plt       0x10000060        0x0 load address 0x00003328
  .igot.plt      0x10000060        0x0 ./src/DemoLibLucasBoard.o
 
 .bss_RAM2       0x2007c000        0x0
@@ -2315,7 +2479,7 @@ END GROUP
                 0x2007c000                . = ALIGN ((. != 0x0)?0x4:0x1)
                 [!provide]                PROVIDE (__end_bss_RAM2, .)
 
-.bss            0x10000060       0xfc
+.bss            0x10000060      0x114
                 0x10000060                _bss = .
  *(.bss*)
  .bss.usTicks   0x10000060        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
@@ -2345,15 +2509,35 @@ END GROUP
  .bss.flag_pulsador
                 0x1000009c        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
                 0x1000009c                flag_pulsador
- .bss.errno     0x100000a0        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
-                0x100000a0                errno
- .bss.__Ciob    0x100000a4       0xb4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
-                0x100000a4                __Ciob
+ .bss.Teclas    0x100000a0        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000a0                Teclas
+ .bss.TeclasAnterior
+                0x100000a4        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000a4                TeclasAnterior
+ .bss.TeclaPresionada
+                0x100000a8        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000a8                TeclaPresionada
+ .bss.TiempoPresionado
+                0x100000ac        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000ac                TiempoPresionado
+ .bss.buzz      0x100000b0        0x4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000b0                buzz
+ .bss.Presionado
+                0x100000b4        0x1 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000b4                Presionado
+ .bss.PresionLarga
+                0x100000b5        0x1 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                0x100000b5                PresionLarga
+ *fill*         0x100000b6        0x2 
+ .bss.errno     0x100000b8        0x4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
+                0x100000b8                errno
+ .bss.__Ciob    0x100000bc       0xb4 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
+                0x100000bc                __Ciob
  *(COMMON)
- COMMON         0x10000158        0x4 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
-                0x10000158                SystemCoreClock
-                0x1000015c                . = ALIGN (0x4)
-                0x1000015c                _ebss = .
+ COMMON         0x10000170        0x4 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x10000170                SystemCoreClock
+                0x10000174                . = ALIGN (0x4)
+                0x10000174                _ebss = .
                 [!provide]                PROVIDE (end, .)
 
 .noinit_RAM2    0x2007c000        0x0
@@ -2361,58 +2545,60 @@ END GROUP
  *(.noinit.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.noinit         0x1000015c        0x0
-                0x1000015c                _noinit = .
+.noinit         0x10000174        0x0
+                0x10000174                _noinit = .
  *(.noinit*)
-                0x1000015c                . = ALIGN (0x4)
-                0x1000015c                _end_noinit = .
-                0x1000015c                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x10000174                . = ALIGN (0x4)
+                0x10000174                _end_noinit = .
+                0x10000174                PROVIDE (_pvHeapStart, DEFINED (__user_heap_base)?__user_heap_base:.)
                 0x10008000                PROVIDE (_vStackTop, DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc32 - 0x0))
                 0xefff74de                PROVIDE (__valid_user_code_checksum, (0x0 - ((((((_vStackTop + (ResetISR + 0x1)) + (NMI_Handler + 0x1)) + (HardFault_Handler + 0x1)) + (DEFINED (MemManage_Handler)?MemManage_Handler:0x0 + 0x1)) + (DEFINED (BusFault_Handler)?BusFault_Handler:0x0 + 0x1)) + (DEFINED (UsageFault_Handler)?UsageFault_Handler:0x0 + 0x1))))
                 0x00000000                _image_start = LOADADDR (.text)
-                0x00002b5c                _image_end = (LOADADDR (.data) + SIZEOF (.data))
-                0x00002b5c                _image_size = (_image_end - _image_start)
+                0x00003328                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x00003328                _image_size = (_image_end - _image_start)
 OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x7524
- .debug_info    0x00000000      0x21b ./src/DemoLibLucasBoard.o
- .debug_info    0x0000021b      0x25c ./src/cr_startup_lpc175x_6x.o
- .debug_info    0x00000477       0x3f ./src/crp.o
- .debug_info    0x000004b6      0x239 ./src/sysinit.o
- .debug_info    0x000006ef      0xfb4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_info    0x000016a3      0x45d C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
- .debug_info    0x00001b00      0x261 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
- .debug_info    0x00001d61      0x812 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_info    0x00002573      0xfb3 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_info    0x00003526      0x6c5 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_info    0x00003beb      0x471 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_info    0x0000405c      0xba2 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_info    0x00004bfe      0xeac C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_info    0x00005aaa      0x325 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_info    0x00005dcf      0x479 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_info    0x00006248      0x430 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_info    0x00006678      0xeac C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_info     0x00000000     0x8275
+ .debug_info    0x00000000      0x22a ./src/DemoLibLucasBoard.o
+ .debug_info    0x0000022a      0x25c ./src/cr_startup_lpc175x_6x.o
+ .debug_info    0x00000486       0x3f ./src/crp.o
+ .debug_info    0x000004c5      0x239 ./src/sysinit.o
+ .debug_info    0x000006fe      0xfb4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_info    0x000016b2      0x45d C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_info    0x00001b0f      0x261 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_info    0x00001d70      0x812 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_info    0x00002582      0xd42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_info    0x000032c4      0xfb3 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_info    0x00004277      0x6c5 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_info    0x0000493c      0x471 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_info    0x00004dad      0xba2 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_info    0x0000594f      0xeac C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_info    0x000067fb      0x325 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_info    0x00006b20      0x479 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_info    0x00006f99      0x430 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_info    0x000073c9      0xeac C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_abbrev   0x00000000     0x1d67
- .debug_abbrev  0x00000000       0xc9 ./src/DemoLibLucasBoard.o
- .debug_abbrev  0x000000c9      0x114 ./src/cr_startup_lpc175x_6x.o
- .debug_abbrev  0x000001dd       0x36 ./src/crp.o
- .debug_abbrev  0x00000213       0xdd ./src/sysinit.o
- .debug_abbrev  0x000002f0      0x2c6 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_abbrev  0x000005b6      0x16b C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
- .debug_abbrev  0x00000721      0x104 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
- .debug_abbrev  0x00000825      0x1f4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_abbrev  0x00000a19      0x376 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_abbrev  0x00000d8f      0x17e C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_abbrev  0x00000f0d      0x13c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_abbrev  0x00001049      0x301 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_abbrev  0x0000134a      0x2d0 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_abbrev  0x0000161a      0x14a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_abbrev  0x00001764      0x18a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_abbrev  0x000018ee      0x16d C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_abbrev  0x00001a5b      0x30c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_abbrev   0x00000000     0x208c
+ .debug_abbrev  0x00000000       0xd8 ./src/DemoLibLucasBoard.o
+ .debug_abbrev  0x000000d8      0x114 ./src/cr_startup_lpc175x_6x.o
+ .debug_abbrev  0x000001ec       0x36 ./src/crp.o
+ .debug_abbrev  0x00000222       0xdd ./src/sysinit.o
+ .debug_abbrev  0x000002ff      0x2c6 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_abbrev  0x000005c5      0x16b C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_abbrev  0x00000730      0x104 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_abbrev  0x00000834      0x1f4 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_abbrev  0x00000a28      0x316 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_abbrev  0x00000d3e      0x376 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_abbrev  0x000010b4      0x17e C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_abbrev  0x00001232      0x13c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_abbrev  0x0000136e      0x301 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_abbrev  0x0000166f      0x2d0 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_abbrev  0x0000193f      0x14a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_abbrev  0x00001a89      0x18a C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_abbrev  0x00001c13      0x16d C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_abbrev  0x00001d80      0x30c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_aranges  0x00000000      0x8c8
+.debug_aranges  0x00000000      0xa10
  .debug_aranges
                 0x00000000       0x20 ./src/DemoLibLucasBoard.o
  .debug_aranges
@@ -2430,25 +2616,27 @@ OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
  .debug_aranges
                 0x00000268       0x68 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .debug_aranges
-                0x000002d0      0x158 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x000002d0      0x148 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .debug_aranges
-                0x00000428       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x00000418      0x158 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .debug_aranges
-                0x00000460       0x38 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x00000570       0x38 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .debug_aranges
-                0x00000498      0x120 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x000005a8       0x38 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .debug_aranges
-                0x000005b8      0x118 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x000005e0      0x120 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .debug_aranges
-                0x000006d0       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000700      0x118 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .debug_aranges
-                0x00000700       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x00000818       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .debug_aranges
-                0x00000760       0x40 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x00000848       0x60 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .debug_aranges
-                0x000007a0      0x128 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x000008a8       0x40 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_aranges
+                0x000008e8      0x128 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_ranges   0x00000000      0x7b0
+.debug_ranges   0x00000000      0x8e8
  .debug_ranges  0x00000000       0x10 ./src/DemoLibLucasBoard.o
  .debug_ranges  0x00000010       0x70 ./src/cr_startup_lpc175x_6x.o
  .debug_ranges  0x00000080       0x10 ./src/sysinit.o
@@ -2456,132 +2644,138 @@ OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
  .debug_ranges  0x000001c0       0x20 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
  .debug_ranges  0x000001e0       0x10 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
  .debug_ranges  0x000001f0       0x58 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_ranges  0x00000248      0x148 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_ranges  0x00000390       0x28 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_ranges  0x000003b8       0x28 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_ranges  0x000003e0      0x110 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_ranges  0x000004f0      0x108 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_ranges  0x000005f8       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_ranges  0x00000618       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_ranges  0x00000668       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_ranges  0x00000698      0x118 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_ranges  0x00000248      0x138 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_ranges  0x00000380      0x148 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_ranges  0x000004c8       0x28 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_ranges  0x000004f0       0x28 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_ranges  0x00000518      0x110 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_ranges  0x00000628      0x108 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_ranges  0x00000730       0x20 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_ranges  0x00000750       0x50 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_ranges  0x000007a0       0x30 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_ranges  0x000007d0      0x118 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_macro    0x00000000     0x69bf
- .debug_macro   0x00000000      0x248 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00000248      0x8ce ./src/DemoLibLucasBoard.o
- .debug_macro   0x00000b16       0x10 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00000b26      0x12d ./src/DemoLibLucasBoard.o
- .debug_macro   0x00000c53      0x5b2 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00001205       0x22 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00001227       0x7b ./src/DemoLibLucasBoard.o
- .debug_macro   0x000012a2       0x10 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000012b2       0x2d ./src/DemoLibLucasBoard.o
- .debug_macro   0x000012df       0x3a ./src/DemoLibLucasBoard.o
- .debug_macro   0x00001319       0x2d ./src/DemoLibLucasBoard.o
- .debug_macro   0x00001346      0xbb1 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00001ef7      0x217 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000210e       0x42 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00002150       0x52 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000021a2       0x78 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000221a       0x82 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000229c      0x48c ./src/DemoLibLucasBoard.o
- .debug_macro   0x00002728       0x34 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000275c      0x4c5 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00002c21      0x1b7 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00002dd8       0x10 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00002de8      0x21b ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003003      0x1b9 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000031bc       0x40 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000031fc       0x22 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000321e      0x162 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003380       0x94 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003414       0xb8 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000034cc       0x4c ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003518       0x16 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000352e      0x328 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003856       0x49 ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000389f       0x16 ./src/DemoLibLucasBoard.o
- .debug_macro   0x000038b5       0xca ./src/DemoLibLucasBoard.o
- .debug_macro   0x0000397f       0x18 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003997       0x70 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003a07       0x9a ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003aa1       0x20 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003ac1       0x28 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003ae9       0x82 ./src/DemoLibLucasBoard.o
- .debug_macro   0x00003b6b       0x1d ./src/cr_startup_lpc175x_6x.o
- .debug_macro   0x00003b88       0x1a ./src/crp.o
- .debug_macro   0x00003ba2       0x34 ./src/crp.o
- .debug_macro   0x00003bd6      0x217 ./src/sysinit.o
- .debug_macro   0x00003ded      0x2d1 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_macro   0x000040be      0x8ce C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_macro   0x0000498c      0x217 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
- .debug_macro   0x00004ba3      0x1d7 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
- .debug_macro   0x00004d7a      0x225 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_macro   0x00004f9f      0x282 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_macro   0x00005221      0x8c8 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_macro   0x00005ae9       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_macro   0x00005afb      0x217 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_macro   0x00005d12      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_macro   0x00005edf      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_macro   0x000060ac      0x1df C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_macro   0x0000628b      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_macro   0x00006458      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_macro   0x00006625      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_macro   0x000067f2      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_macro    0x00000000     0x6ccd
+ .debug_macro   0x00000000      0x251 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00000251      0x8ce ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00000b1f       0x10 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00000b2f      0x12d ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00000c5c      0x5b2 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x0000120e       0x22 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00001230       0x7b ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000012ab       0x10 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000012bb       0x2d ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000012e8       0x3a ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00001322       0x2d ./src/DemoLibLucasBoard.o
+ .debug_macro   0x0000134f      0xbb1 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00001f00      0x217 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002117       0x42 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002159       0x52 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000021ab       0x78 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002223       0x82 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000022a5      0x48c ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002731       0x34 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002765      0x4c5 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002c2a      0x1b7 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002de1       0x10 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00002df1      0x21b ./src/DemoLibLucasBoard.o
+ .debug_macro   0x0000300c      0x1b9 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000031c5       0x40 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003205       0x22 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003227      0x162 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003389       0x94 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x0000341d       0xb8 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000034d5       0x4c ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003521       0x16 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003537      0x328 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x0000385f       0x49 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000038a8       0x16 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000038be       0xca ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003988       0x18 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x000039a0       0x70 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003a10       0x9a ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003aaa       0x20 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003aca       0x28 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003af2       0x10 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003b02       0x82 ./src/DemoLibLucasBoard.o
+ .debug_macro   0x00003b84       0x1d ./src/cr_startup_lpc175x_6x.o
+ .debug_macro   0x00003ba1       0x1a ./src/crp.o
+ .debug_macro   0x00003bbb       0x34 ./src/crp.o
+ .debug_macro   0x00003bef      0x217 ./src/sysinit.o
+ .debug_macro   0x00003e06      0x2d1 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_macro   0x000040d7      0x8ce C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_macro   0x000049a5      0x217 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_macro   0x00004bbc      0x1d7 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_macro   0x00004d93      0x225 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_macro   0x00004fb8      0x2f5 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_macro   0x000052ad      0x282 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x0000552f      0x8c8 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00005df7       0x12 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_macro   0x00005e09      0x217 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_macro   0x00006020      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_macro   0x000061ed      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_macro   0x000063ba      0x1df C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_macro   0x00006599      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_macro   0x00006766      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_macro   0x00006933      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_macro   0x00006b00      0x1cd C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_line     0x00000000     0x5278
- .debug_line    0x00000000      0x51c ./src/DemoLibLucasBoard.o
- .debug_line    0x0000051c       0xd3 ./src/cr_startup_lpc175x_6x.o
- .debug_line    0x000005ef       0x75 ./src/crp.o
- .debug_line    0x00000664      0x447 ./src/sysinit.o
- .debug_line    0x00000aab      0x7b9 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_line    0x00001264      0x490 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
- .debug_line    0x000016f4      0x42f C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
- .debug_line    0x00001b23      0x50f C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_line    0x00002032      0x7d7 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_line    0x00002809      0x487 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_line    0x00002c90      0x42e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_line    0x000030be      0x6ab C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_line    0x00003769      0x701 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_line    0x00003e6a      0x41b C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_line    0x00004285      0x4a5 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_line    0x0000472a      0x440 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_line    0x00004b6a      0x70e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_line     0x00000000     0x5a29
+ .debug_line    0x00000000      0x53a ./src/DemoLibLucasBoard.o
+ .debug_line    0x0000053a       0xd3 ./src/cr_startup_lpc175x_6x.o
+ .debug_line    0x0000060d       0x75 ./src/crp.o
+ .debug_line    0x00000682      0x447 ./src/sysinit.o
+ .debug_line    0x00000ac9      0x7b9 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_line    0x00001282      0x490 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_line    0x00001712      0x42f C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_line    0x00001b41      0x50f C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_line    0x00002050      0x793 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_line    0x000027e3      0x7d7 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_line    0x00002fba      0x487 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_line    0x00003441      0x42e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_line    0x0000386f      0x6ab C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_line    0x00003f1a      0x701 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_line    0x0000461b      0x41b C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_line    0x00004a36      0x4a5 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_line    0x00004edb      0x440 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_line    0x0000531b      0x70e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
 
-.debug_str      0x00000000    0x13e58
- .debug_str     0x00000000    0x10e7b ./src/DemoLibLucasBoard.o
-                              0x10f59 (size before relaxing)
- .debug_str     0x00010e7b      0x1d6 ./src/cr_startup_lpc175x_6x.o
+.debug_str      0x00000000    0x1429f
+ .debug_str     0x00000000    0x10ea5 ./src/DemoLibLucasBoard.o
+                              0x10f83 (size before relaxing)
+ .debug_str     0x00010ea5      0x1d6 ./src/cr_startup_lpc175x_6x.o
                                0x2762 (size before relaxing)
- .debug_str     0x00011051       0xe9 ./src/crp.o
+ .debug_str     0x0001107b       0xe9 ./src/crp.o
                                0x2666 (size before relaxing)
- .debug_str     0x0001113a       0x1b ./src/sysinit.o
+ .debug_str     0x00011164       0x1b ./src/sysinit.o
                               0x10ae5 (size before relaxing)
- .debug_str     0x00011155      0xbcb C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_str     0x0001117f      0xbcb C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
                               0x11678 (size before relaxing)
- .debug_str     0x00011d20      0x10a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_str     0x00011d4a      0x10a C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
                               0x10d6f (size before relaxing)
- .debug_str     0x00011e2a       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_str     0x00011e54       0x42 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
                               0x1072e (size before relaxing)
- .debug_str     0x00011e6c      0x279 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_str     0x00011e96      0x279 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
                               0x10c94 (size before relaxing)
- .debug_str     0x000120e5      0x995 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_str     0x0001210f      0x433 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+                              0x11708 (size before relaxing)
+ .debug_str     0x00012542      0x97f C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
                               0x11631 (size before relaxing)
- .debug_str     0x00012a7a      0x22d C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_str     0x00012ec1      0x22d C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
                               0x10ecc (size before relaxing)
- .debug_str     0x00012ca7       0x9e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_str     0x000130ee       0x9e C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
                               0x1086b (size before relaxing)
- .debug_str     0x00012d45      0x628 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_str     0x0001318c      0x628 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
                               0x1119a (size before relaxing)
- .debug_str     0x0001336d      0x4f7 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_str     0x000137b4      0x4f7 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
                               0x111aa (size before relaxing)
- .debug_str     0x00013864       0x79 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_str     0x00013cab       0x79 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
                               0x10617 (size before relaxing)
- .debug_str     0x000138dd       0xc4 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_str     0x00013d24       0xc4 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
                               0x107ff (size before relaxing)
- .debug_str     0x000139a1      0x12c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_str     0x00013de8      0x12c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
                               0x10948 (size before relaxing)
- .debug_str     0x00013acd      0x38b C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+ .debug_str     0x00013f14      0x38b C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
                               0x11032 (size before relaxing)
 
 .comment        0x00000000       0x7f
@@ -2594,6 +2788,7 @@ OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .comment       0x0000007f       0x80 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
@@ -2647,88 +2842,91 @@ OUTPUT(DemoLibLucasBoard.axf elf32-littlearm)
  .ARM.attributes
                 0x00000165       0x33 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
  .ARM.attributes
-                0x00000198       0x33 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+                0x00000198       0x33 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
  .ARM.attributes
-                0x000001cb       0x33 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+                0x000001cb       0x33 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
  .ARM.attributes
-                0x000001fe       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+                0x000001fe       0x33 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
  .ARM.attributes
-                0x00000231       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+                0x00000231       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
  .ARM.attributes
-                0x00000264       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+                0x00000264       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
  .ARM.attributes
-                0x00000297       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+                0x00000297       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
  .ARM.attributes
-                0x000002ca       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+                0x000002ca       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
  .ARM.attributes
-                0x000002fd       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+                0x000002fd       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
  .ARM.attributes
-                0x00000330       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+                0x00000330       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
  .ARM.attributes
-                0x00000363       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
+                0x00000363       0x33 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
  .ARM.attributes
-                0x00000396       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
+                0x00000396       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(_cr__main.o)
  .ARM.attributes
-                0x000003c9       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
+                0x000003c9       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(initio.o)
  .ARM.attributes
-                0x000003fc       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
+                0x000003fc       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(setvbuf.o)
  .ARM.attributes
-                0x0000042f       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
+                0x0000042f       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fdopen.o)
  .ARM.attributes
-                0x00000462       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
+                0x00000462       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fclose.o)
  .ARM.attributes
-                0x00000495       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
+                0x00000495       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fflush.o)
  .ARM.attributes
-                0x000004c8       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
+                0x000004c8       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(fseek.o)
  .ARM.attributes
-                0x000004fb       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
+                0x000004fb       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(ftell.o)
  .ARM.attributes
-                0x0000052e       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
+                0x0000052e       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(remove.o)
  .ARM.attributes
-                0x00000561       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
+                0x00000561       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(strlen.o)
  .ARM.attributes
-                0x00000594       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
+                0x00000594       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(memset.o)
  .ARM.attributes
-                0x000005c7       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
+                0x000005c7       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_do_fflush.o)
  .ARM.attributes
-                0x000005fa       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
+                0x000005fa       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_fflush.o)
  .ARM.attributes
-                0x0000062d       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
+                0x0000062d       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_writebuf.o)
  .ARM.attributes
-                0x00000660       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
+                0x00000660       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(alloc.o)
  .ARM.attributes
-                0x00000693       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
+                0x00000693       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(errno.o)
  .ARM.attributes
-                0x000006c6       0x21 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
+                0x000006c6       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_c.a(_deferredlazyseek.o)
  .ARM.attributes
-                0x000006e7       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
+                0x000006f9       0x21 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7-m\libcr_eabihelpers.a(memcpy.o)
  .ARM.attributes
-                0x0000071a       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
+                0x0000071a       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__ciob.o)
  .ARM.attributes
-                0x0000074d       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
+                0x0000074d       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_close.o)
  .ARM.attributes
-                0x00000780       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
+                0x00000780       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_flen.o)
  .ARM.attributes
-                0x000007b3       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
+                0x000007b3       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_istty.o)
  .ARM.attributes
-                0x000007e6       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
+                0x000007e6       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_remove.o)
  .ARM.attributes
-                0x00000819       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
+                0x00000819       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_seek.o)
+ .ARM.attributes
+                0x0000084c       0x33 c:/nxp/mcuxpressoide_10.1.1_606/ide/tools/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7-m\libcr_nohost_nf.a(__sys_tmpnam.o)
 
-.debug_frame    0x00000000     0x2100
- .debug_frame   0x00000000       0x2c ./src/DemoLibLucasBoard.o
- .debug_frame   0x0000002c      0x170 ./src/cr_startup_lpc175x_6x.o
- .debug_frame   0x0000019c       0x34 ./src/sysinit.o
- .debug_frame   0x000001d0      0x54c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
- .debug_frame   0x0000071c       0x74 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
- .debug_frame   0x00000790       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
- .debug_frame   0x000007bc      0x184 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
- .debug_frame   0x00000940      0x5b0 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
- .debug_frame   0x00000ef0       0x8c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
- .debug_frame   0x00000f7c       0x88 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
- .debug_frame   0x00001004      0x490 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
- .debug_frame   0x00001494      0x4c8 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
- .debug_frame   0x0000195c       0x80 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
- .debug_frame   0x000019dc      0x12c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
- .debug_frame   0x00001b08       0xd0 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
- .debug_frame   0x00001bd8      0x528 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)
+.debug_frame    0x00000000     0x2618
+ .debug_frame   0x00000000       0x30 ./src/DemoLibLucasBoard.o
+ .debug_frame   0x00000030      0x170 ./src/cr_startup_lpc175x_6x.o
+ .debug_frame   0x000001a0       0x34 ./src/sysinit.o
+ .debug_frame   0x000001d4      0x54c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(display_1602.o)
+ .debug_frame   0x00000720       0x74 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(i2c_eeprom.o)
+ .debug_frame   0x00000794       0x2c C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(parpadeo.o)
+ .debug_frame   0x000007c0      0x184 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(pulsador_irq.o)
+ .debug_frame   0x00000944      0x514 C:\Datos\Otros\Repo\lib_lucas_board\Debug\liblib_lucas_board.a(teclado_matricial.o)
+ .debug_frame   0x00000e58      0x5b0 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board.o)
+ .debug_frame   0x00001408       0x8c C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\Debug\liblpc_board_nxp_lpcxpresso_1769.a(board_sysinit.o)
+ .debug_frame   0x00001494       0x88 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(chip_17xx_40xx.o)
+ .debug_frame   0x0000151c      0x490 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(clock_17xx_40xx.o)
+ .debug_frame   0x000019ac      0x4c8 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(i2c_17xx_40xx.o)
+ .debug_frame   0x00001e74       0x80 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(iocon_17xx_40xx.o)
+ .debug_frame   0x00001ef4      0x12c C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(sysinit_17xx_40xx.o)
+ .debug_frame   0x00002020       0xd0 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(timer_17xx_40xx.o)
+ .debug_frame   0x000020f0      0x528 C:\Datos\Otros\Repo\lpc_chip_175x_6x\Debug\liblpc_chip_175x_6x.a(uart_17xx_40xx.o)

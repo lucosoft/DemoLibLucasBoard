@@ -45,7 +45,8 @@ src/DemoLibLucasBoard.o src/DemoLibLucasBoard.d: \
  C:\Datos\Otros\Repo\lib_lucas_board\inc/pulsador_irq.h \
  C:\Datos\Otros\Repo\lib_lucas_board\inc/parpadeo.h \
  C:\Datos\Otros\Repo\lib_lucas_board\inc/i2c_eeprom.h \
- C:\Datos\Otros\Repo\lib_lucas_board\inc/display_1602.h
+ C:\Datos\Otros\Repo\lib_lucas_board\inc/display_1602.h \
+ C:\Datos\Otros\Repo\lib_lucas_board\inc/teclado_matricial.h
 
 C:\Datos\Otros\Repo\lpc_board_nxp_lpcxpresso_1769\inc/board.h:
 
@@ -138,3 +139,5 @@ C:\Datos\Otros\Repo\lib_lucas_board\inc/parpadeo.h:
 C:\Datos\Otros\Repo\lib_lucas_board\inc/i2c_eeprom.h:
 
 C:\Datos\Otros\Repo\lib_lucas_board\inc/display_1602.h:
+
+C:\Datos\Otros\Repo\lib_lucas_board\inc/teclado_matricial.h:
