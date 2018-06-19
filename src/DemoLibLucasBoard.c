@@ -19,6 +19,7 @@
 #include "pulsador_irq.h"
 #include "parpadeo.h"
 #include "i2c_eeprom.h"
+#include "display_1602.h"
 
 #include <cr_section_macros.h>
 
@@ -51,6 +52,8 @@ int main(void) {
 	I2C_Eeprom_Init();
 	I2C_Eeprom_Escribir();
 	I2C_Eeprom_Leer();
+	LCD_Init();
+	LCD_Print("INICIALIZANDO...");
 
 	while (1) {
 
