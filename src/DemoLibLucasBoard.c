@@ -18,6 +18,7 @@
 
 #include "pulsador_irq.h"
 #include "parpadeo.h"
+#include "i2c_eeprom.h"
 
 #include <cr_section_macros.h>
 
@@ -47,6 +48,9 @@ int main(void) {
 #endif
 
 	Pulsador_Irq_Init();
+	I2C_Eeprom_Init();
+	I2C_Eeprom_Escribir();
+	I2C_Eeprom_Leer();
 
 	while (1) {
 
